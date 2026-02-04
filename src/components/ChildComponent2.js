@@ -4,7 +4,7 @@ function ChildComponent2({ setSelectedOption }) {
   return (
     <div>
       Child Component 2
-      <button onClick={() => setSelectedOption("option 2")}>option 2</button>
+      <button onClick={() => setSelectedOption("Option 2")}>Option 2</button>
     </div>
   );
 }
