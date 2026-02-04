@@ -16,7 +16,7 @@ const App = () => {
         setSelectedOption={setSelectedOption}
       />
 
-      <p>Selected Option:{selectedOption}</p>
+      <p>Selected Option: {selectedOption}</p>
     </div>
   );
 };
