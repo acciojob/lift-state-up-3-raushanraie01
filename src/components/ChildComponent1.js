@@ -1,10 +1,10 @@
 import React from "react";
 
-function ChildComponent1({ selectedOption, setSelectedOption }) {
+function ChildComponent1({ setSelectedOption }) {
   return (
     <div>
       Child Component 1
-      <button onClick={() => setSelectedOption("option 1")}>option 1</button>
+      <button onClick={() => setSelectedOption("Option 1")}>Option 1 </button>
     </div>
   );
 }
